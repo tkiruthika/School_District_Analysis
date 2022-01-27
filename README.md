@@ -34,53 +34,84 @@ To start our analysis
   - Average reading and math scores are calculated using **mean()**.
   - The **count()** is used to get the total number of students and the number of schools in the district.
   - The conditionals **&** and **>=** are used to find passing students in math, reading and in both.
+  - The average scores and percentage values are formatted using **map()** and the school district summary dataframe is printed.
+  - Using the **set.index()** the school performance is analysed accoring to the size, type, and budget(Spending scores).
   
 ## Challenge
   
   It was said that there is a academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appears to have been altered. So, we are asked to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. After replacing we need to repeat the school district analysis.
 
+To start the challenge, we replaced the math and reading scores of Thomas High School, Ninth graders to Nan using **np.Nan**. After replacing, all the analysis functions are performed on the data set and the results are displayed.
+  
 ## Results
 
-  **- District Summary**
+  - **District Summary**
 
-  ![district_summary2](https://user-images.githubusercontent.com/95719819/151267048-26fdcbe0-0a09-48c1-b5ce-c8c199e3df6e.png)
+  ![1](https://user-images.githubusercontent.com/95719819/151432362-56417a71-7b23-438c-9dfd-969d5e85438a.png)
   
-  **- School Summary**
-  
-  ![school summary 2](https://user-images.githubusercontent.com/95719819/151247387-29be27c0-f57d-4f2b-8ccc-9666c1216fc0.PNG)
-  
-  **- Thomas High School’s performance relative to the other schools after replacing math and reading scores for ninth garders**
-  
-  ![school summary](https://user-images.githubusercontent.com/95719819/151248352-c5c3d353-9628-470d-bdba-29b141122bb8.PNG)
-  
-  **- Top 5 performing schools, based on the overall passing rate**
+  ![2](https://user-images.githubusercontent.com/95719819/151430959-b0ea3a3d-795a-4ee2-ae89-cf344e2b39a4.PNG)
 
-  ![top 5](https://user-images.githubusercontent.com/95719819/151265626-2bf958d3-1ea9-4b86-bba6-932f1eeb36f8.png)
- 
-  **- Bottom 5 performing schools, based on the overall passing rate**
- 
-  ![bottom5](https://user-images.githubusercontent.com/95719819/151265803-4f8286ac-47a1-49f9-8cae-1473f40b31a5.PNG)
+  - **School Summary**
   
-  **- Math and Reading scores by grade after replacing math and reading scores for ninth garders**
+  ![ss1](https://user-images.githubusercontent.com/95719819/151431458-5d1101a6-bc05-4fe4-89fe-02ab227f1209.PNG)
+
+  ![ss2](https://user-images.githubusercontent.com/95719819/151431489-ae56ab25-c2a3-4772-afdc-98cf242998b9.PNG)
+
+  
+  - **Thomas High School’s performance relative to the other schools after replacing math and reading scores for ninth garders**
+  
+  ![3](https://user-images.githubusercontent.com/95719819/151431542-e949f9a9-aa89-4662-bb56-351a1f63666f.PNG)
+  
+  - **Top 5 performing schools, based on the overall passing rate**
+   
+   ![top 5](https://user-images.githubusercontent.com/95719819/151431673-66ae177b-9b8a-4f98-a20a-e7cd1344d6fc.png)
+   
+   ![top5_c](https://user-images.githubusercontent.com/95719819/151431677-18552280-7365-445e-a10f-2d96dec9e9a3.PNG)
+
+  
+  - **Bottom 5 performing schools, based on the overall passing rate**
+  
+   ![bottom5](https://user-images.githubusercontent.com/95719819/151431816-c8d3f9c6-e63e-4e0e-923b-42759c69cf09.PNG)
+   
+   ![bottom5_c](https://user-images.githubusercontent.com/95719819/151431775-8c103353-1ebd-4bf1-b23c-f7e465a1c480.PNG)
+
+  
+  - **Math scores by grade after replacing math and reading scores for ninth garders**
+  
+  ![math1](https://user-images.githubusercontent.com/95719819/151432839-7d07dccb-c5fa-46bb-99bd-e6b76f6cc40b.PNG)
   
   ![math scores](https://user-images.githubusercontent.com/95719819/151265959-a4903810-23a2-44f8-bc12-1aa3b43f5518.PNG)
   
+  - **Reading scores by grade after replacing math and reading scores for ninth garders**
+
+  ![reading1](https://user-images.githubusercontent.com/95719819/151432937-5118a865-2b8f-4d3a-9990-133b49d22ded.PNG)
+  
   ![reading scores](https://user-images.githubusercontent.com/95719819/151265977-5c3b8f6c-0c4c-43fb-8187-086f86eda11c.PNG)
 
-  **- Scores by school spending after replacing math and reading scores for ninth garders**
-    
-  ![spending summary](https://user-images.githubusercontent.com/95719819/151265992-d4a19ece-c8c3-4ff2-9942-0e1e9034652e.PNG)
+  - **Scores by school spending after replacing math and reading scores for ninth garders**
   
-  **- Scores by school size after replacing math and reading scores for ninth garders**
+  ![spending1](https://user-images.githubusercontent.com/95719819/151433547-7ed0e3f5-e7ea-4c15-b8d8-973695373383.PNG)
+  
+  ![spending_c](https://user-images.githubusercontent.com/95719819/151433548-1038ea0d-e5eb-4e9d-8ac2-99c5b8700b3c.PNG)
+
+  ![spending_summary](https://user-images.githubusercontent.com/95719819/151433861-71eb58ec-2977-48d8-8b22-5733404cb4f8.PNG)
+  
+  - **Scores by school size after replacing math and reading scores for ninth garders**
+
+  ![size1](https://user-images.githubusercontent.com/95719819/151433271-329791c4-8e7d-4b2b-bfb8-8f8c16d34bf6.PNG)
+
+  ![size_c](https://user-images.githubusercontent.com/95719819/151433306-756b429b-7d14-483b-a7c3-1ca47dbc8f82.PNG)
   
   ![school size](https://user-images.githubusercontent.com/95719819/151266036-246fa76b-3048-40fd-b6d8-058a46e8a6df.PNG)
 
-  **-Scores by school type after replacing math and reading scores for ninth garders**
+  - **Scores by school type after replacing math and reading scores for ninth garders**
+
+  ![type1](https://user-images.githubusercontent.com/95719819/151433397-0fe27a83-1cd6-4861-a321-ef34b1760dc7.PNG)
   
+  ![type_c](https://user-images.githubusercontent.com/95719819/151433429-12dd63b2-61e0-47c6-87cc-3b2a74cd212d.PNG)
+
   ![school type](https://user-images.githubusercontent.com/95719819/151266092-8faa82fc-1b73-4d1a-ba96-fcb37da41fc7.PNG)
 
-   
- 
 ## Summary
   
 
