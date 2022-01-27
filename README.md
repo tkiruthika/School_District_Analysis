@@ -158,6 +158,10 @@ To start the challenge, we replaced the math and reading scores of Thomas High S
   With the above results we summarize our school_district analysis as
   
   - The district summary of the school data showed a very small change in the average scores and the pass percentage.
+  - Also, there was no big difference in the average scores and the pass percentages of the Thomas High School after replacing the nintth graders score and subtracting the ninth graders student count from the total student count.
+  - Thomas High school continued to be the second top school in the district with the very small deviation in the average and pass percentage before and after replacing the scores of the Ninth Graders.
+  - The math and reading scores by grade remain the same before and after except for the ninth graders scores are displayed as Nan.
+  - The summary of scores by spending, school aize and school type did not show any significant difference.
 
       
 
